@@ -1,11 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 40px;
+}
+
+.container {
   width: 375px;
-  background-image: url(/assets/image-header.jpg);
+  border: solid 3px black;
 }
 
 .box1 {
-  border: solid 1px;
+  background-image: url(/assets/image-header.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  width: 375px;
+  height: 538px;
+}
+
+img {
+  height: 24px;
+  width: 123.64px;
 }/*# sourceMappingURL=style.css.map */
