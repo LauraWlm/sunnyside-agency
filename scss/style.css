@@ -53,6 +53,7 @@ body {
   background-color: white;
   height: 19.5rem;
   text-align: center;
+  position: relative;
 }
 .box3 h2 {
   font-family: "Fraunces", serif;
@@ -67,11 +68,12 @@ body {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  line-height: 1.3rem;
 }
 .box3 a {
   font-family: "Fraunces", serif;
   text-decoration: none;
   color: black;
-  padding-left: 6.531rem;
-  padding-right: 6.531rem;
+  position: absolute;
+  bottom: 2.5rem;
 }/*# sourceMappingURL=style.css.map */
