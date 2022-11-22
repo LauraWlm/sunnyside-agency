@@ -6,10 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
-@mixin center {
+@mixin center ($dir, $justify, $align) {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
 }
 
 
@@ -44,9 +45,11 @@ body {
 
     h1 {
         @include title();
-        @include center();
+        @include center($dir, $justify, $align );
+        flex: column, center, center;
         height: 327px;
         width: 98px;
+
     }
 
 }
