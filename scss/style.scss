@@ -6,20 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
-@mixin center ($dir, $justify, $align) {
+@mixin center {
     display: flex;
-    flex-direction: $dir;
-    justify-content: $justify;
-    align-items: $align;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-
-@mixin title {
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Fraunces', serif;
-    text-align: center;
-}
-
 
 body {
     @include center();
@@ -29,6 +21,7 @@ body {
 .container {
     width: 375px;
     border: solid 3px black;
+    position: relative;
 }
 
 .box1 {
@@ -39,17 +32,19 @@ body {
     height: 538px;
 
     img {
+        padding: 10px;
         height: 24px;
-        width: 123.64px;
     }
 
     h1 {
-        @include title();
-        @include center($dir, $justify, $align );
-        flex: column, center, center;
-        height: 327px;
-        width: 98px;
-
+        border: 1px solid black;
+        text-align: center;
+        margin: 0;
+        color: white;
+        font-size: 50px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }

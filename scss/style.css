@@ -7,14 +7,16 @@
 
 body {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 40px;
 }
 
 .container {
   width: 375px;
   border: solid 3px black;
+  position: relative;
 }
 
 .box1 {
@@ -25,13 +27,16 @@ body {
   height: 538px;
 }
 .box1 img {
+  padding: 10px;
   height: 24px;
-  width: 123.64px;
 }
 .box1 h1 {
-  font-family: "Barlow", sans-serif;
-  font-family: "Fraunces", serif;
+  border: 1px solid black;
   text-align: center;
-  height: 327px;
-  width: 98px;
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
 }/*# sourceMappingURL=style.css.map */
