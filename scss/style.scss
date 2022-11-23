@@ -9,11 +9,13 @@
 
 body {
     width: 100%;
-    @include center();
     margin: 1.875rem;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 23.438rem;
     border: solid 3px black;
     position: relative;
