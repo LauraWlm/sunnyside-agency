@@ -16,7 +16,6 @@ body {
   justify-content: center;
   width: 23.438rem;
   border: solid 3px black;
-  position: relative;
 }
 
 .box1 {
@@ -35,9 +34,6 @@ body {
   margin: 0;
   color: white;
   font-size: 3.125rem;
-  padding-top: 4.063rem;
-  padding-left: 0.938rem;
-  padding-right: 0.938rem;
 }
 
 .box2 {
@@ -52,27 +48,17 @@ body {
   background-color: white;
   height: 19.5rem;
   text-align: center;
-  position: relative;
 }
 .box3 h2 {
   font-family: "Fraunces", serif;
   font-size: 2rem;
-  padding-top: 2rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .box3 p {
   font-family: "Barlow", sans-serif;
   font-size: 1rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  line-height: 1.3rem;
 }
 .box3 a {
   font-family: "Fraunces", serif;
   text-decoration: none;
   color: black;
-  position: absolute;
-  bottom: 2.5rem;
 }/*# sourceMappingURL=style.css.map */
