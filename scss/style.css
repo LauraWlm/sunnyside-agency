@@ -52,12 +52,12 @@ body {
   font-weight: 900;
   margin-top: 8vw;
 }
-.box1 #arrow {
+.box1 .arrow {
   color: hsl(0deg, 0%, 100%);
-  opacity: 0.5;
+  padding-top: 3vw;
   display: flex;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
 }
 
 /* deuxième box*/
