@@ -23,12 +23,20 @@ body {
   height: 33.625rem;
   width: 23.4375rem;
 }
-.box1 img {
-  padding-top: 1.5rem;
-  padding-left: 1rem;
-  height: 1rem;
+.box1 .nav {
+  width: 20.4375rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding-top: 1.8rem;
+  padding-left: 1.3rem;
 }
-.box1 i {
+.box1 .nav img {
+  width: 7.75rem;
+  height: 1.5rem;
+}
+.box1 .nav i {
   color: hsl(0deg, 0%, 100%);
 }
 .box1 h1 {
