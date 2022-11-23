@@ -28,6 +28,9 @@ body {
   padding-left: 1rem;
   height: 1rem;
 }
+.box1 i {
+  color: hsl(0deg, 0%, 100%);
+}
 .box1 h1 {
   font-family: "Fraunces", serif;
   text-align: center;
@@ -329,6 +332,7 @@ a.stand::before {
   height: 11.7188rem;
 }
 
+/*dixième box non faite*/
 .box10 {
   border: 0.2rem solid green;
   width: 23.4375rem;

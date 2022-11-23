@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
-
 body {
     width: 100%;
 }
@@ -28,6 +27,11 @@ body {
         padding-top: 1.5rem;
         padding-left: 1rem;
         height: 1rem;
+    }
+
+    i {
+        color: hsl(0, 0%, 100%);
+        ;
     }
 
     h1 {
@@ -356,6 +360,7 @@ a.stand::before {
     }
 }
 
+/*dixième box non faite*/
 .box10 {
     border: 0.20rem solid green;
     width: 23.4375rem;
