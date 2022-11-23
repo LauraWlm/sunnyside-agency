@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after{
     margin: 0;
     padding: 0;
 }
@@ -8,18 +8,19 @@
 
 body {
     width: 100%;
+    height: 100vh;
 }
 
-.container {
+main {
     width: 50vw;
 }
 
-.header {
+header {
     background-image: url(/assets/image-header.jpg);
     background-position: center bottom;
     background-size: cover;
     height:71.4667vw;
-    .nav {
+    nav {
         width: 43.6vw;
         height: 3.2vw;
         display: flex;
@@ -30,27 +31,27 @@ body {
         padding-top:6%;
         padding-left: 7%;
 
-        img {
+        .logo {
             width: 16.4853vw;
             height: 3.2vw;
         }
 
-        i {
-            height: 3.2vw;
-            color: hsl(0, 0%, 100%);
+        .burger{
+            width: 3.5vw;
+            height: 2.2vw;
             opacity: 0.5;
             display: flex;
             justify-content: center;
             align-content: flex-start;
         }
 }
-
-/*première box*/
-.box1 {
-
+.bordermenu{
+    display: none;
+    box-sizing: border-box;
+    width: 43.8667vw;
+    height: 40.6667vw;
     .menu {
-        width: 43.8667vw;
-        height: 40.6667vw;
+        
         border: .2667vw  hsl(0, 0%, 100%);
         background-color: hsl(0, 0%, 100%);
         opacity: 1;
@@ -60,25 +61,25 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         align-content: center;
-        align-items: center;
-        p{
-            font-family: 'Barlow', sans-serif;
-             color: hsl(232, 10%, 55%);
-             font-size: 2.4vw;
-             font-weight: 600;
-        }
-        button{
-            font-family: 'Fraunces', serif;
-            text-align: center;
-            color: hsl(212, 27%, 19%);
-            letter-spacing: .64vw;
-            font-size: 2vww;
-             font-weight: 700;
-             padding: 2.5%;
-             border-radius: 25px;
-             border: 1vw solid hsl(51, 100%, 49%);
-             background-color: hsl(51, 100%, 49%);
-        }
+         align-items: center; 
+            .item {
+                font-family: 'Barlow', sans-serif;
+                color: hsl(232, 10%, 55%);
+                font-size: 2.4vw;
+                font-weight: 600;
+            }
+            .button{
+                font-family: 'Fraunces', serif;
+                text-align: center;
+                color: hsl(212, 27%, 19%);
+                letter-spacing: .64vw;
+                font-size: 2vww;
+                font-weight: 700;
+                padding: 2.5%;
+                border-radius: 6.6667vw;
+                border: 1vw solid hsl(51, 100%, 49%);
+                background-color: hsl(51, 100%, 49%);
+            }
     }
 }
 
@@ -452,22 +453,25 @@ h1 {
     body {
         width: auto;
     }    
-    .container {
+    main {
         width: 192vw;
     }
-    .nav {
-        width: 180.2667vw;
-        height: 7.4667vw;
-        display: flex;
-        justify-content: space-between;
-        align-content: flex-start;
-        padding-top:6%;
-        padding-left: 7%;
-
-        img {
-            width: 22.6667vw;
-            height: 4.4vw;
+    header {
+        nav{
+        .logo{
+        position: absolute;
+        width: 18vw;
+        height: 4vw;
+        top:2vw;
+        left: 3vw;
+        }
+        .menu{
+        display: none;
         }
     }
-    
+}
+.bordermenu{
+    display: none;
+}
+
 }
