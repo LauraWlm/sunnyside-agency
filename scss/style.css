@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  width: 23.4375rem;
-  height: 326.1875rem;
+  width: 50vw;
+  height: 692vh;
 }
 
 /*première box*/
@@ -20,35 +20,44 @@ body {
   background-image: url(/assets/image-header.jpg);
   background-position: center bottom;
   background-size: cover;
-  height: 33.625rem;
-  width: 23.4375rem;
+  height: 71.4667vw;
+  width: 50vw;
 }
 .box1 .nav {
-  width: 20.4375rem;
-  height: 1.5rem;
+  width: 43.6vw;
+  height: 3.2vw;
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  padding-top: 1.8rem;
-  padding-left: 1.3rem;
+  padding-top: 6%;
+  padding-left: 7%;
 }
 .box1 .nav img {
-  width: 7.75rem;
-  height: 1.5rem;
+  width: 16.4853vw;
+  height: 3.2vw;
 }
 .box1 .nav i {
   color: hsl(0deg, 0%, 100%);
   opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
 }
 .box1 h1 {
   font-family: "Fraunces", serif;
   text-align: center;
-  letter-spacing: 0.3rem;
-  margin: 0;
+  letter-spacing: 0.64vw;
   color: white;
-  font-size: 2.5rem;
+  font-size: 5.3333vw;
   font-weight: 900;
-  padding-top: 4rem;
+  margin-top: 8vw;
+}
+.box1 #arrow {
+  color: hsl(0deg, 0%, 100%);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 /* deuxième box*/
@@ -56,15 +65,15 @@ body {
   background-image: url(/assets/image-transform.jpg);
   background-position: center bottom;
   background-size: cover;
-  width: 23.4375rem;
-  height: 19.5rem;
+  width: 50vw;
+  height: 41.6vw;
 }
 
 /*troisième box*/
 .box3 {
   background-color: white;
-  width: 23.4375rem;
-  height: 27.5rem;
+  width: 50vw;
+  height: 58.6667vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,20 +84,20 @@ body {
 .box3 h2 {
   font-family: "Fraunces", serif;
   color: hsl(212deg, 27%, 19%);
-  font-size: 2rem;
+  font-size: 5vw;
   font-weight: 900;
-  width: 20.4375rem;
-  padding-top: 4rem;
+  width: 43.6vw;
+  padding-top: 64px;
 }
 .box3 p {
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
-  font-size: 1.125rem;
-  line-height: 2rem;
+  font-size: 2.4vw;
+  line-height: 4.2667vw;
   font-weight: 400;
-  width: 20.4375rem;
+  width: 43.6vw;
   height: 9.375rem;
-  padding-top: 1.5rem;
+  padding-top: 3.2vw;
 }
 .box3 a {
   font-family: "Fraunces", serif;
@@ -96,20 +105,20 @@ body {
   color: hsl(212deg, 27%, 19%);
   font-size: 1.125rem;
   font-weight: 900;
-  width: 20rem;
-  height: 7.5rem;
-  padding-top: 2rem;
+  width: 320px;
+  height: 120px;
+  padding-top: 32px;
   display: inline;
   position: relative;
 }
 .box3 a::after {
   content: "";
   display: block;
-  margin: 5rem;
-  border: 0.7rem solid;
+  margin: 80px;
+  border: 11.2px solid;
   border-color: hsl(51deg, 100%, 49%);
   border-radius: 15px;
-  margin-top: -0.67rem;
+  margin-top: -10.72px;
   opacity: 0.5;
 }
 
@@ -118,15 +127,15 @@ body {
   background-image: url(/assets/image-stand-out.jpg);
   background-position: center bottom;
   background-size: cover;
-  width: 23.4375rem;
-  height: 19.5rem;
+  width: 50vw;
+  height: 312px;
 }
 
 /*cinquième box*/
 .box5 {
   background-color: white;
-  width: 23.4375rem;
-  height: 27.5rem;
+  width: 50vw;
+  height: 440px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,18 +148,18 @@ body {
   color: hsl(212deg, 27%, 19%);
   font-size: 2rem;
   font-weight: 900;
-  width: 20.4375rem;
-  padding-top: 4rem;
+  width: 327px;
+  padding-top: 64px;
 }
 .box5 p {
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
-  line-height: 2rem;
+  line-height: 32px;
   font-weight: 400;
-  width: 20.4375rem;
-  height: 9.375rem;
-  padding-top: 1.5rem;
+  width: 327px;
+  height: 150px;
+  padding-top: 24px;
 }
 .box5 a {
   font-family: "Fraunces", serif;
@@ -158,9 +167,9 @@ body {
   color: hsl(212deg, 27%, 19%);
   font-size: 1.125rem;
   font-weight: 900;
-  width: 20rem;
-  height: 7.5rem;
-  padding-top: 2rem;
+  width: 320px;
+  height: 120px;
+  padding-top: 32px;
   display: inline;
   position: relative;
 }
@@ -168,10 +177,10 @@ body {
   content: "";
   display: block;
   margin: 5rem;
-  border: 0.7rem solid;
+  border: 11.2px solid;
   border-color: hsl(7deg, 99%, 70%);
   border-radius: 15px;
-  margin-top: -0.67rem;
+  margin-top: -10.72px;
   opacity: 0.5;
 }
 
@@ -180,8 +189,8 @@ body {
   background-image: url(/assets/image-graphic-design.jpg);
   background-position: center bottom;
   background-size: cover;
-  width: 23.4375rem;
-  height: 37.5rem;
+  width: 50vw;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,19 +201,19 @@ body {
 .box6 h2 {
   font-family: "Fraunces", serif;
   color: hsl(213deg, 9%, 39%);
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 900;
   width: 23.4375rem;
-  height: 2.1875rem;
+  height: 35px;
 }
 .box6 p {
-  width: 22rem;
-  height: 5.0625rem;
+  width: 352px;
+  height: 81px;
   font-family: "Barlow", sans-serif;
   color: hsl(213deg, 9%, 39%);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6rem;
+  line-height: 25.6px;
   padding-top: 1.2rem;
   padding-bottom: 4rem;
 }
@@ -214,8 +223,8 @@ body {
   background-image: url(/assets/image-photography.jpg);
   background-position: center bottom;
   background-size: cover;
-  width: 23.4375rem;
-  height: 37.5rem;
+  width: 50vw;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,25 +237,25 @@ body {
   color: hsl(213deg, 9%, 39%);
   font-size: 2rem;
   font-weight: 900;
-  width: 13.8125rem;
-  padding-top: 2.1875rem;
+  width: 221px;
+  padding-top: 35px;
 }
 .box7 p {
-  width: 23rem;
-  height: 5.0625rem;
+  width: 368px;
+  height: 81px;
   font-family: "Barlow", sans-serif;
   color: hsl(213deg, 9%, 39%);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6rem;
-  padding-top: 1.2rem;
-  padding-bottom: 4rem;
+  line-height: 25.6px;
+  padding-top: 19.2px;
+  padding-bottom: 64px;
 }
 
 /*huitième box*/
 .box8 {
   background-color: white;
-  width: 23.4375rem;
+  width: 50vw;
   height: 78.625rem;
   display: flex;
   flex-direction: column;
@@ -257,104 +266,118 @@ body {
 }
 .box8 h3 {
   font-family: "Fraunces", serif;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1.6px;
   color: hsl(210deg, 4%, 67%);
   font-size: 1.125rem;
   font-weight: 900;
-  width: 17.4375rem;
-  height: 1.25rem;
-  padding-top: 4rem;
+  width: 279px;
+  height: 20px;
+  padding-top: 64px;
 }
 .box8 img {
-  width: 4rem;
-  height: 4rem;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
 }
 .box8 p.emi {
-  width: 20.44rem;
-  height: 6rem;
+  width: 327.04px;
+  height: 96px;
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 32px;
 }
 .box8 p.emily {
-  width: 4.9375rem;
-  height: 1.375rem;
+  width: 79px;
+  height: 22px;
   font-family: "Fraunces", serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 900;
-  line-height: 2rem;
+  line-height: 32px;
 }
 .box8 p.tho {
-  width: 20.44rem;
-  height: 8rem;
+  width: 327.04px;
+  height: 128px;
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 32px;
 }
 .box8 p.thomas {
-  width: 6.0625rem;
-  height: 1.375rem;
+  width: 97px;
+  height: 22px;
   font-family: "Fraunces", serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 900;
 }
 .box8 p.jen {
-  width: 20.44rem;
-  height: 6rem;
+  width: 327.04px;
+  height: 96px;
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 32px;
 }
 .box8 p.jennie {
-  width: 5.125rem;
-  height: 1.375rem;
+  width: 82px;
+  height: 22px;
   font-family: "Fraunces", serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 700;
 }
 .box8 p.job {
-  width: 12.6875rem;
-  height: 1.5625rem;
+  width: 203px;
+  height: 25px;
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
   font-size: 1.125rem;
   font-weight: 600;
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
 }
 
-/*neuvième box*/
+/*neuvième box avec 4 images*/
 .box9 {
-  max-width: 23.4375rem;
-  max-height: 23.4375rem;
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 50%);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-.box9 img {
-  width: 11.7188rem;
-  height: 11.7188rem;
+.box9 .milk {
+  grid-area: 1/1/2/2;
+  width: 50vw;
+  height: 50vw;
+}
+.box9 .orange {
+  grid-area: 1/2/2/3;
+  width: 50vw;
+  height: 50vw;
+}
+.box9 .cone {
+  grid-area: 2/1/3/2;
+  width: 50vw;
+  height: 50vw;
+}
+.box9 .cubes {
+  grid-area: 2/2/3/3;
+  width: 50vw;
+  height: 50vw;
 }
 
 /*dixième box non faite*/
 .box10 {
   border: 0.2rem solid green;
-  width: 23.4375rem;
-  height: 21.875rem;
+  width: 50vw;
+  height: 350px;
 }
 
-@media screen and (min-width: 90rem) {
+@media screen and (min-width: 1440px) {
   .container {
-    width: 90rem;
-    height: 50rem;
+    width: 1440px;
+    height: 800p;
   }
 }/*# sourceMappingURL=style.css.map */
