@@ -40,8 +40,8 @@ body {
         }
 
         i {
-
             color: hsl(0, 0%, 100%);
+            opacity: 0.5;
         }
     }
 
@@ -100,7 +100,7 @@ body {
         padding-top: 1.5rem;
     }
 
-    a.transform {
+    a {
         font-family: 'Fraunces', serif;
         text-decoration: none;
         color: hsl(212, 27%, 19%);
@@ -113,15 +113,20 @@ body {
         position: relative;
 
     }
+
+    a::after {
+        content: "";
+        display: block;
+        margin: 5rem;
+        border: 0.7rem solid;
+        border-color: hsl(51, 100%, 49%);
+        border-radius: 15px;
+        margin-top: -0.67rem;
+        opacity: 0.5;
+    }
 }
 
-a.transform::before {
-    content: "LEARN MORE";
-    display: block;
-    width: 100%;
-    border-bottom: 2rem solid hsl(51, 100%, 49%) 1rem;
-    border-radius: 20%;
-}
+
 
 /*quatrième box*/
 .box4 {
@@ -164,7 +169,7 @@ a.transform::before {
         padding-top: 1.5rem;
     }
 
-    a.stand {
+    a {
         font-family: 'Fraunces', serif;
         text-decoration: none;
         color: hsl(212, 27%, 19%);
@@ -175,16 +180,21 @@ a.transform::before {
         padding-top: 2rem;
         display: inline;
         position: relative;
+
+    }
+
+    a::after {
+        content: "";
+        display: block;
+        margin: 5rem;
+        border: 0.7rem solid;
+        border-color: hsl(7, 99%, 70%);
+        border-radius: 15px;
+        margin-top: -0.67rem;
+        opacity: 0.5;
     }
 }
 
-a.stand::before {
-    content: "LEARN MORE";
-    display: block;
-    width: 100%;
-    border-bottom: 2rem solid hsl(51, 100%, 49%) 1rem;
-    border-radius: 20%;
-}
 
 /*sixième box*/
 .box6 {
@@ -376,4 +386,13 @@ a.stand::before {
     border: 0.20rem solid green;
     width: 23.4375rem;
     height: 21.875rem;
+}
+
+@media screen and (min-width: 90rem) {
+
+    .container {
+        width: 90rem;
+        height: 50rem;
+    }
+
 }

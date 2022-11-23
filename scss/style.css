@@ -38,6 +38,7 @@ body {
 }
 .box1 .nav i {
   color: hsl(0deg, 0%, 100%);
+  opacity: 0.5;
 }
 .box1 h1 {
   font-family: "Fraunces", serif;
@@ -89,7 +90,7 @@ body {
   height: 9.375rem;
   padding-top: 1.5rem;
 }
-.box3 a.transform {
+.box3 a {
   font-family: "Fraunces", serif;
   text-decoration: none;
   color: hsl(212deg, 27%, 19%);
@@ -101,13 +102,15 @@ body {
   display: inline;
   position: relative;
 }
-
-a.transform::before {
-  content: "LEARN MORE";
+.box3 a::after {
+  content: "";
   display: block;
-  width: 100%;
-  border-bottom: 2rem solid hsl(51deg, 100%, 49%) 1rem;
-  border-radius: 20%;
+  margin: 5rem;
+  border: 0.7rem solid;
+  border-color: hsl(51deg, 100%, 49%);
+  border-radius: 15px;
+  margin-top: -0.67rem;
+  opacity: 0.5;
 }
 
 /*quatrième box*/
@@ -149,7 +152,7 @@ a.transform::before {
   height: 9.375rem;
   padding-top: 1.5rem;
 }
-.box5 a.stand {
+.box5 a {
   font-family: "Fraunces", serif;
   text-decoration: none;
   color: hsl(212deg, 27%, 19%);
@@ -161,13 +164,15 @@ a.transform::before {
   display: inline;
   position: relative;
 }
-
-a.stand::before {
-  content: "LEARN MORE";
+.box5 a::after {
+  content: "";
   display: block;
-  width: 100%;
-  border-bottom: 2rem solid hsl(51deg, 100%, 49%) 1rem;
-  border-radius: 20%;
+  margin: 5rem;
+  border: 0.7rem solid;
+  border-color: hsl(7deg, 99%, 70%);
+  border-radius: 15px;
+  margin-top: -0.67rem;
+  opacity: 0.5;
 }
 
 /*sixième box*/
@@ -345,4 +350,11 @@ a.stand::before {
   border: 0.2rem solid green;
   width: 23.4375rem;
   height: 21.875rem;
+}
+
+@media screen and (min-width: 90rem) {
+  .container {
+    width: 90rem;
+    height: 50rem;
+  }
 }/*# sourceMappingURL=style.css.map */
