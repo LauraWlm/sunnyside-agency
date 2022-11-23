@@ -12,22 +12,20 @@ body {
 
 .container {
     width: 50vw;
-    height: 692vh
 }
 
-/*première box*/
-.box1 {
+.header {
     background-image: url(/assets/image-header.jpg);
     background-position: center bottom;
     background-size: cover;
     height:71.4667vw;
-    width: 50vw;
-
     .nav {
         width: 43.6vw;
         height: 3.2vw;
         display: flex;
+        order: 3;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-content: flex-start;
         padding-top:6%;
         padding-left: 7%;
@@ -38,31 +36,71 @@ body {
         }
 
         i {
+            height: 3.2vw;
             color: hsl(0, 0%, 100%);
             opacity: 0.5;
             display: flex;
             justify-content: center;
             align-content: flex-start;
         }
-    }
+}
 
-    h1 {
-        font-family: 'Fraunces', serif;
-        text-align: center;
-        letter-spacing: .64vw;
-        color: white;
-        font-size: 5.3333vw;
-        font-weight: 900;
-        margin-top: 8vw;;
-    }
-   .arrow {
-        color: hsl(0, 0%, 100%);
-        padding-top: 3vw;
+/*première box*/
+.box1 {
+
+    .menu {
+        width: 43.8667vw;
+        height: 40.6667vw;
+        border: .2667vw  hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        opacity: 1;
+        margin-top: 5%;
+        margin-left: 5%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
         align-content: center;
+        align-items: center;
+        p{
+            font-family: 'Barlow', sans-serif;
+             color: hsl(232, 10%, 55%);
+             font-size: 2.4vw;
+             font-weight: 600;
+        }
+        button{
+            font-family: 'Fraunces', serif;
+            text-align: center;
+            color: hsl(212, 27%, 19%);
+            letter-spacing: .64vw;
+            font-size: 2vww;
+             font-weight: 700;
+             padding: 2.5%;
+             border-radius: 25px;
+             border: 1vw solid hsl(51, 100%, 49%);
+             background-color: hsl(51, 100%, 49%);
+        }
     }
 }
+
+h1 {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    letter-spacing: .64vw;
+    color: white;
+    font-size: 5.3333vw;
+    font-weight: 900;
+    margin-top: 8vw;;
+}
+.arrow {
+    height: 13.3333vw;
+    color: hsl(0, 0%, 100%);
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+}
+
 
 /* deuxième box*/
 .box2 {
@@ -93,7 +131,74 @@ body {
         font-size: 5vw;
         font-weight: 900;
         width: 43.6vw;
-        padding-top: 64px;
+        padding-top: 20%;
+    }
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        color: hsl(232, 10%, 55%);
+        font-size: 2.4vw;
+        line-height: 4.2667vw;
+        font-weight: 600;
+        width: 43.6vw;
+        height: 20vw;
+        padding-top: 10%;
+    }
+
+    a {
+        font-family: 'Fraunces', serif;
+        text-decoration: none;
+        color: hsl(212, 27%, 19%);
+        font-size: 2.4vw;
+        font-weight: 900;
+        width: 42.6667vw;
+        height: 16vw;
+        padding-top: 10%;
+        display: inline;
+        position: relative;
+    }
+
+    a::after {
+        content: "";
+        display: block;
+        margin: 29%;
+        border: 1vw solid;
+        border-color: hsl(51, 100%, 49%);
+        background-color: hsl(51, 100%, 49%);
+        border-radius: 3vw;
+        margin-top: -1.4293vw;
+        opacity: 0.5;
+    }
+}
+
+/*quatrième box*/
+.box4 {
+    background-image: url(/assets/image-stand-out.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    width: 50vw;
+    height: 41.6vw;
+}
+
+/*cinquième box*/
+.box5 {
+    background-color: white;
+    width: 50vw;
+    height: 58.6667vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: center;
+
+    h2 {
+        font-family: 'Fraunces', serif;
+        color: hsl(212, 27%, 19%);
+        font-size: 4.2667vw;
+        font-weight: 900;
+        width: 43.6vw;
+        padding-top: 20%;
     }
 
     p {
@@ -103,104 +208,36 @@ body {
         line-height: 4.2667vw;
         font-weight: 400;
         width: 43.6vw;
-        height: 9.375rem;
-        padding-top: 3.2vw;
+        height: 20vw;
+        padding-top: 10%;
     }
 
     a {
         font-family: 'Fraunces', serif;
         text-decoration: none;
         color: hsl(212, 27%, 19%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 900;
-        width: 320px;
-        height: 120px;
-        padding-top: 32px;
+        width: 42.6667vw;
+        height: 16vw;
+        padding-top: 10%;
         display: inline;
         position: relative;
 
     }
+}
 
     a::after {
         content: "";
         display: block;
-        margin: 80px;
-        border: 11.2px solid;
-        border-color: hsl(51, 100%, 49%);
-        border-radius: 15px;
-        margin-top: -10.72px;
-        opacity: 0.5;
-    }
-}
-
-
-
-/*quatrième box*/
-.box4 {
-    background-image: url(/assets/image-stand-out.jpg);
-    background-position: center bottom;
-    background-size: cover;
-    width: 50vw;
-    height: 312px;
-}
-
-/*cinquième box*/
-.box5 {
-    background-color: white;
-    width: 50vw;
-    height: 440px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-content: space-between;
-    text-align: center;
-
-    h2 {
-        font-family: 'Fraunces', serif;
-        color: hsl(212, 27%, 19%);
-        font-size: 2rem;
-        font-weight: 900;
-        width: 327px;
-        padding-top: 64px;
-    }
-
-    p {
-        font-family: 'Barlow', sans-serif;
-        color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
-        line-height: 32px;
-        font-weight: 400;
-        width: 327px;
-        height: 150px;
-        padding-top: 24px;
-    }
-
-    a {
-        font-family: 'Fraunces', serif;
-        text-decoration: none;
-        color: hsl(212, 27%, 19%);
-        font-size: 1.125rem;
-        font-weight: 900;
-        width: 320px;
-        height: 120px;
-        padding-top: 32px;
-        display: inline;
-        position: relative;
-
-    }
-
-    a::after {
-        content: "";
-        display: block;
-        margin: 5rem;
-        border: 11.2px solid;
+        margin: 29%;
+        border: 1vw solid;
         border-color: hsl(7, 99%, 70%);
-        border-radius: 15px;
-        margin-top: -10.72px;
+        background-color: hsl(7, 99%, 70%);
+        border-radius: 3vw;
+        margin-top: -1.4293vw;
         opacity: 0.5;
     }
-}
 
 
 /*sixième box*/
@@ -209,7 +246,7 @@ body {
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
-    height: 600px;
+    height: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,26 +254,25 @@ body {
     align-content: space-between;
     text-align: center;
 
-
     h2 {
         font-family: 'Fraunces', serif;
         color: hsl(213, 9%, 39%);
-        font-size: 32px;
+        font-size: 4.2667vw;
         font-weight: 900;
-        width: 23.4375rem;
-        height: 35px;
+        width: 50vw;
+        height: 4.6667vw;
     }
 
     p {
-        width: 352px;
-        height: 81px;
+        width: 46.9333vw;
+        height: 10.8vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(213, 9%, 39%);
-        font-size: 1rem;
+        font-size: 2.1333vw;
         font-weight: 400;
-        line-height: 25.6px;
-        padding-top: 1.2rem;
-        padding-bottom: 4rem;
+        line-height: 3.4133vw;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
 }
 
@@ -246,7 +282,7 @@ body {
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
-    height: 600px;
+    height: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,22 +293,22 @@ body {
     h2 {
         font-family: 'Fraunces', serif;
         color: hsl(213, 9%, 39%);
-        font-size: 2rem;
+        font-size: 4.2667vw;
         font-weight: 900;
-        width: 221px;
-        padding-top: 35px;
+        width: 50vw;
+        height: 4.6667vw;
     }
 
     p {
-        width: 368px;
-        height: 81px;
+        width: 46.9333vw;
+        height: 10.8vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(213, 9%, 39%);
-        font-size: 1rem;
+        font-size: 2.1333vw;
         font-weight: 400;
-        line-height: 25.6px;
-        padding-top: 19.2px;
-        padding-bottom: 64px;
+        line-height: 3.4133vw;
+        padding-top: 10%;
+        padding-bottom: 15%;
     }
 }
 
@@ -280,7 +316,7 @@ body {
 .box8 {
     background-color: white;
     width: 50vw;
-    height: 78.625rem;
+    height: 167.7333vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,87 +326,89 @@ body {
 
     h3 {
         font-family: 'Fraunces', serif;
-        letter-spacing: 1.6px;
+        letter-spacing: .2133vw;
         color: hsl(210, 4%, 67%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 900;
-        width: 279px;
-        height: 20px;
-        padding-top: 64px;
+        width: 37.2vw;
+        height: 2.6667vw;
+        padding-top: 8.5333vw;
     }
 
     img {
-        width: 64px;
-        height: 64px;
+        width: 8.5333vw;
+        height: 8.5333vw;
         border-radius: 50%;
+    
     }
 
+
     p.emi {
-        width: 327.04px;
-        height: 96px;
+        width: 43.6053vw;
+        height: 12.8vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 600;
-        line-height: 32px;
+        line-height: 4.2667vw;
     }
 
     p.emily {
-        width: 79px;
-        height: 22px;
+        width: 10.5333vw;
+        height: 2.9333vw;
         font-family: 'Fraunces', serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 900;
-        line-height: 32px;
+        line-height: 4.2667vw;
     }
 
     p.tho {
-        width: 327.04px;
-        height: 128px;
+        width: 43.6053vw;
+        height: 17.0667vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 600;
-        line-height: 32px;
+        line-height: 4.2667vw;
     }
 
     p.thomas {
-        width: 97px;
-        height: 22px;
+        width: 12.9333vw;
+        height: 2.9333vw;
         font-family: 'Fraunces', serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 900;
     }
 
     p.jen {
-        width: 327.04px;
-        height: 96px;
+        width: 43.6053vw;
+        height: 12.8vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 600;
-        line-height: 32px;
+        line-height: 4.2667vw;
     }
 
     p.jennie {
-        width: 82px;
-        height: 22px;
+        width: 10.9333vw;
+        height: 2.9333vw;
         font-family: 'Fraunces', serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 700;
     }
 
     p.job {
-        width: 203px;
-        height: 25px;
+        width: 27.0667vw;
+        height: 3.3333vw;
         font-family: 'Barlow', sans-serif;
         color: hsl(232, 10%, 55%);
-        font-size: 1.125rem;
+        font-size: 2.4vw;
         font-weight: 600;
-        padding-bottom: 16px;
+        padding-bottom: 2.1333vw;
     }
 }
 
@@ -382,37 +420,54 @@ body {
 
    .milk{ 
     grid-area: 1 / 1 / 2 / 2;
-    width: 50vw;
-    height: 50vw; 
+    width: 25vw;
+    height: 25vw;
     }
     .orange{ 
         grid-area: 1 / 2 / 2 / 3;
-        width: 50vw;
-        height: 50vw; 
+        width: 25vw;
+        height: 25vw;
         }
     .cone{
         grid-area: 2 / 1 / 3 / 2;
-        width: 50vw;
-        height: 50vw; 
+        width: 25vw;
+        height: 25vw;
+
         }
     .cubes{grid-area: 2 / 2 / 3 / 3;
-        width: 50vw;
-        height: 50vw; 
+        width: 25vw;
+        height: 25vw;
         }
 }
 
 /*dixième box non faite*/
 .box10 {
-    border: .2rem solid green;
+    border: .4267vw solid green;
     width: 50vw;
-    height: 350px;
+    height: 46.6667vw;
 }
 
 @media screen and (min-width: 1440px) {
 
+    body {
+        width: auto;
+    }    
     .container {
-        width: 1440px;
-        height: 800p;
+        width: 192vw;
     }
+    .nav {
+        width: 180.2667vw;
+        height: 7.4667vw;
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        padding-top:6%;
+        padding-left: 7%;
 
+        img {
+            width: 22.6667vw;
+            height: 4.4vw;
+        }
+    }
+    
 }
