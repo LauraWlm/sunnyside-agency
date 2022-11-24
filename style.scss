@@ -16,7 +16,7 @@ main {
 }
 
 header {
-    background-image: url(/assets/image-header.jpg);
+    background-image: url(./assets/image-header.jpg);
     background-position: center bottom;
     background-size: cover;
     height:71.4667vw;
@@ -102,18 +102,17 @@ h1 {
 }
 }
 
-
-/* deuxième box*/
-.box2 {
-    background-image: url(/assets/image-transform.jpg);
+.parent1{
+    
+    
+    /* deuxième box*/
+    .box2 {
+    background-image: url(./assets/image-transform.jpg);
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
     height: 41.6vw;
-
 }
-
-
 /*troisième box*/
 .box3 {
     background-color: white;
@@ -174,7 +173,7 @@ h1 {
 
 /*quatrième box*/
 .box4 {
-    background-image: url(/assets/image-stand-out.jpg);
+    background-image: url(./assets/image-stand-out.jpg);
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
@@ -207,7 +206,7 @@ h1 {
         color: hsl(232, 10%, 55%);
         font-size: 2.4vw;
         line-height: 4.2667vw;
-        font-weight: 400;
+        font-weight: 600;
         width: 43.6vw;
         height: 20vw;
         padding-top: 10%;
@@ -240,10 +239,9 @@ h1 {
         opacity: 0.5;
     }
 
-
-/*sixième box*/
+    /*sixième box*/
 .box6 {
-    background-image: url(/assets/image-graphic-design.jpg);
+    background-image: url(./assets/image-graphic-design.jpg);
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
@@ -279,7 +277,7 @@ h1 {
 
 /*septième box*/
 .box7 {
-    background-image: url(/assets/image-photography.jpg);
+    background-image: url(./assets/image-photography.jpg);
     background-position: center bottom;
     background-size: cover;
     width: 50vw;
@@ -312,6 +310,16 @@ h1 {
         padding-bottom: 15%;
     }
 }
+
+}
+
+
+
+
+
+
+
+
 
 /*huitième box*/
 .box8 {
